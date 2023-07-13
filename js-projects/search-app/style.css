@@ -1,6 +1,10 @@
 body{
     background-color: #F8FDCF;
 }
+*{
+    font-family: 'VT323', monospace;
+    font-size: 20px;
+}
 .form-wrapper{
     display: flex;
     flex-direction: column;
