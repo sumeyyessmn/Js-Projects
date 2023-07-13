@@ -1,3 +1,2 @@
 Search App
-HTML, CSS ve Javascript kullanarak yapmış olduğum projeyi linkten inceleyebilirsiniz: [https://calm-starlight-9080fd.netlify.app
-](https://calm-starlight-9080fd.netlify.app)https://calm-starlight-9080fd.netlify.app
+HTML, CSS ve Javascript kullanarak yapmış olduğum projeyi linkten inceleyebilirsiniz: https://64b00434475c560e2652361d--fancy-paletas-45c1d7.netlify.app/
