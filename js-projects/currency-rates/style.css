@@ -1,0 +1,14 @@
+#main {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid lightgrey;
+    width: 600px;
+    height: auto;
+    padding: 20px;
+    border-radius: 5px;
+}
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
