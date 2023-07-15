@@ -1,0 +1,26 @@
+#footer {
+    margin-top: 10px;
+    background-color: #fff;
+    border: 1px solid lightgrey;
+}
+#mainDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#instagramLogo {
+    font-size: 35px;
+    color: rgb(139, 15, 139);
+    margin-right: 5px;
+}
+#linkedinLogo {
+    font-size: 35px;
+    color: rgb(37, 37, 224);
+    margin-right: 5px;
+}
+#codepenLogo {
+    font-size: 35px;
+    color: black;
+}
