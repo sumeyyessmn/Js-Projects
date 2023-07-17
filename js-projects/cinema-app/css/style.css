@@ -26,7 +26,7 @@ body{
     margin: 6px;
     color: lightgrey;
 }
-.seat:hover {
+.seat:not(.full):hover {
     transform: scale(1.3);
 }
 .movieMain{
