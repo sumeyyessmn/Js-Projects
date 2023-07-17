@@ -132,3 +132,17 @@ body{
 }
 
 /* SAHNE */
+
+/* KOLTUK RENKLERİ */
+
+.empty{
+    color: lightgrey;
+}
+
+.selected{
+    color: rgb(233, 233, 98);
+}
+
+.full{
+    color: rgb(120, 44, 190);
+}
