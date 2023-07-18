@@ -3,7 +3,7 @@ class Storagex{
     static keyFullSeats="keyFullSeats";
     static keySelectedMovie="keySelectedMovie";
 
-    getSelectedSeatsFromStorage(){
+    static getSelectedSeatsFromStorage(){
         let selectedSeats;
         if(localStorage.getItem(this.keySelectedSeats)===null){
             selectedSeats=[];
@@ -13,7 +13,7 @@ class Storagex{
         return selectedSeats;
     }
 
-    getFullSeatsFromStorage(){
+    static getFullSeatsFromStorage(){
         let fullSeats;
         if(localStorage.getItem(this.keyFullSeats)===null){
             fullSeats=[];
@@ -23,9 +23,25 @@ class Storagex{
         return fullSeats;
     }
 
+    static getSelectedMovieIndexFromStorage(){
+       return localStorage.getItem(this.keySelectedMovie);
+        
+    }
     //Ekleme
 
-    addSelectedSeatToStorage(indexs){
+    static addSelectedSeatToStorage(indexs){
         localStorage.setItem(this.keySelectedSeats, JSON.stringify(indexs));
+    }
+
+    static addFullSeatToStorage(indexs){
+        const fullSeatsIndex = this.getFullSeatsFromStorage();
+        indexs.forEach(index => {
+            fullSeatsIndex.push(index);
+        });
+        localStorage.setItem(this.keyFullSeats, JSON.stringify(fullSeatsIndex));
+    }
+
+    static addSelectedMovieToStorage(index){
+        localStorage.setItem(this.keySelectedMovie, JSON.stringify(index));
     }
 }
