@@ -1,4 +1,4 @@
-#Cinema App
+###Cinema App
 
 ## UI İmages
 ![image](https://github.com/sumeyyessmn/Js-Projects/assets/101064665/85417b05-3cf9-4388-b03b-c08ad6eb457d)
