@@ -1,0 +1,68 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lumanosimo', cursive;
+}
+
+body{
+    background-image: url("/js-projects/weather-app/weather-bg.jpg");   
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh; 
+    color: whitesmoke; 
+    background-blend-mode: overlay; 
+}
+.container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.app{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    background-color: black;
+    opacity: 0.8;
+    padding: 50px;
+    box-shadow: 5px 12px 20px black;
+}
+
+.header{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#searchInput{
+    width: 100%;
+    padding: 10px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid grey;
+    outline: none;
+    color: rgb(131, 70, 131);
+    font-size: 20px;
+    text-align: center;
+    margin-top: 15px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+}
+.cityName{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.degree{
+    font-size: 65px;
+    margin-bottom: 10px;
+}
