@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Victor+Mono:ital,wght@0,100;0,400;0,600;1,400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:#363d6b;
+    font-family: 'Victor Mono', monospace;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+#searchInput{
+    padding: 5px;
+    border-radius: 50px;
+    background-color: transparent;
+    outline: none;
+    margin-top: 15px;
+    margin-right: 25px;
+    color: #fff;
+}
+
+#searchInput::placeholder{
+    color: lightgray;
+    font-size: 12px;
+    text-align: center;
+}
+
+.movies{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 15px;
+}
+
+.movie{
+    margin: 10px;
+    width: 260px;
+    height: 405px;
+    background-color: #5c6494;
+}
+
+.moviePicture{
+    width: 260px;
+    height: 320px;
+}
+
+.info{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;  
+    margin-top: 20px;  
+}
+
+.movieName{
+    font-size: 14px;
+    color: lightgrey;
+    margin-right: 10px;
+}
+
+.imdbPoint{
+    font-size: 16px;
+    color: black;
+    background-color: yellow;
+    padding: 3px;
+}
